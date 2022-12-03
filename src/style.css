@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;400;500;600&family=Kumbh+Sans&display=swap');
+
+:root{  
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+    --card-color: hsl(0, 0%, 59%);
+}
+
+body{  
+    background-color: var(--background-color);
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+.cartao .bg{
+    background-position: top ;
+    background-image: url(images/bg-card.svg);
+    height: 30%;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+hr{    
+    width: 100%;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;    
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 20px;
+    gap: 25px;
+    margin: 20px;     
+}
+
+.cartao .informacoes-perfil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informacoes-perfil .foto-perfil{
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: 80px;
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+}
+
+.cartao .cidade{
+    color: hsl(227, 10%, 46%);
+}
+
+.informacoes-perfil .nome{
+    font-weight: 700;
+    color: black;
+}
+
+.cartao .resultado{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px; 
+}
+
+.numeros .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultado .dados-sociais {
+    color: black;
+    font-weight: 700;
+}
+
+.resultado .resultado-sociais {
+    display: flex;
+    flex-direction: column;    
+    color: hsl(227, 10%, 46%);
+}
