@@ -16,9 +16,9 @@ body{
     
 }
 
-.cartao .bg{
-    background-position: top ;
+.cartao .bg{    
     background-image: url(images/bg-card.svg);
+    background-position: top ;
     height: 30%;
     width: 350px;
     border-top-left-radius: 20px;
