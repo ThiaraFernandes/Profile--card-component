@@ -13,12 +13,16 @@ body{
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    background-image: url(images/bg-top.svg),url(images/bg-bottom.svg);
+    background-position: -100px -300px, 750px 320px;
+     background-size: 50%, 50%;
+     background-repeat: no-repeat;
     
 }
 
-.cartao .bg{    
-    background-image: url(images/bg-card.svg);
+.cartao .bg{
     background-position: top ;
+    background-image: url(images/bg-card.svg);
     height: 30%;
     width: 350px;
     border-top-left-radius: 20px;
